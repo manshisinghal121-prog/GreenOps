@@ -1,0 +1,8 @@
+workload,cpu_usage,ram_usage,runtime_hours,instance_type,region,workload_type
+Database-01,18,25,24,m5.2xlarge,India,database
+ML-Training,92,85,6,m5.2xlarge,India,machine_learning
+Report-Generator,12,20,2,m5.large,India,batch
+Web-Server,35,40,24,m5.large,India,web
+Analytics-Job,28,32,5,m5.xlarge,India,analytics
+API-Server,45,50,24,m5.large,India,web
+Image-Processing,22,30,8,m5.xlarge,India,batch
