@@ -96,8 +96,12 @@ h1, h2, h3 {
 # Backend Connection
 # -----------------------------
 
-BACKEND_URL = "http://127.0.0.1:8000"
+import os
 
+BACKEND_URL = os.getenv(
+    "GREENOPS_API_URL",
+    "http://127.0.0.1:8000"
+)
 
 @st.cache_data(ttl=30)
 def get_dashboard():
